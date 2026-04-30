@@ -35,7 +35,11 @@ export default function SignUpPage() {
         router.push("/");
         setLoading(false);
     };
-
+    const handleGoogleSignIn = async() => {
+        await authClient.signIn.social({
+            provider: 'google'
+        })
+    }
     return (
         <div className="min-h-screen bg-gradient-to-br from-amber-50 via-white to-orange-50 dark:from-[#0a0a0b] dark:via-[#0a0a0b] dark:to-[#0a0a0b] flex items-center justify-center px-4 py-12">
             <div className="w-full max-w-md">
@@ -171,7 +175,7 @@ export default function SignUpPage() {
                         {/* Google */}
                         <button
                             type="button"
-                            onClick={() => authClient.signIn.social({ provider: "google", callbackURL: "/" })}
+                            onClick={(handleGoogleSignIn) => authClient.signIn.social({ provider: "google", callbackURL: "/" })}
                             className="w-full py-3.5 rounded-xl border border-gray-200 dark:border-white/10 bg-gray-50 dark:bg-white/[0.03] text-sm font-semibold text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-white/5 transition-all duration-200 flex items-center justify-center gap-3"
                         >
                             <svg width="18" height="18" viewBox="0 0 24 24">
