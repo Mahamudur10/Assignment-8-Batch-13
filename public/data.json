@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "description": "Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived. Would you have done anything different, if you had the chance to undo your regrets?",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/10909258-L.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "A handbook of agile software craftsmanship that teaches programmers how to write clean, readable, and maintainable code. Covers best practices, refactoring techniques, and real-world examples.",
+    "category": "Tech",
+    "available_quantity": 3,
+    "image_url": "https://covers.openlibrary.org/b/id/8091016-L.jpg"
+  },
+  {
+    "id": "3",
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "From the Big Bang to black holes, Stephen Hawking takes us on a breathtaking journey through the universe. Written for readers with no background in science, this landmark book explores the nature of space, time, and existence.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/id/8372978-L.jpg"
+  },
+  {
+    "id": "4",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "Set in the American South during the 1930s, this Pulitzer Prize-winning novel follows young Scout Finch as her father, lawyer Atticus Finch, defends a Black man unjustly accused of a crime, exploring themes of racism and moral courage.",
+    "category": "Story",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/id/8810494-L.jpg"
+  },
+  {
+    "id": "5",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "description": "A classic guide for software developers that covers topics from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse.",
+    "category": "Tech",
+    "available_quantity": 2,
+    "image_url": "https://covers.openlibrary.org/b/id/8091022-L.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "description": "A bold and wide-ranging exploration of humankind, tracing the history of our species from the Stone Age through the Agricultural and Scientific Revolutions to the present day, asking why Homo sapiens came to dominate the Earth.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/id/9252649-L.jpg"
+  },
+  {
+    "id": "7",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "A young Andalusian shepherd named Santiago embarks on a journey to find a worldly treasure. Along the way he meets a gypsy woman, a man who calls himself king, and an alchemist, discovering that treasure lies where your heart belongs.",
+    "category": "Story",
+    "available_quantity": 8,
+    "image_url": "https://covers.openlibrary.org/b/id/8910474-L.jpg"
+  },
+  {
+    "id": "8",
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "description": "A deep dive into the core mechanisms of the JavaScript language. This book series challenges your assumptions and fills the gaps in your understanding of JS, covering scope, closures, this, prototypes, and async patterns.",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/id/7898674-L.jpg"
+  },
+  {
+    "id": "9",
+    "title": "The Gene",
+    "author": "Siddhartha Mukherjee",
+    "description": "An intimate history of the gene that weaves science, social history, and memoir together. It describes the birth of a new science and provides a sober assessment of the challenges that genomics poses for our society.",
+    "category": "Science",
+    "available_quantity": 3,
+    "image_url": "https://covers.openlibrary.org/b/id/9266183-L.jpg"
+  },
+  {
+    "id": "10",
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian novel set in a totalitarian society ruled by Big Brother, where independent thinking is a crime called thoughtcrime. Winston Smith works for the Ministry of Truth and begins a forbidden love affair while secretly rebelling against the Party.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/id/9834795-L.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "description": "A comprehensive guide to the principles, algorithms, and tradeoffs involved in building reliable, scalable, and maintainable applications. Covers databases, distributed systems, stream processing, and more for software engineers.",
+    "category": "Tech",
+    "available_quantity": 2,
+    "image_url": "https://covers.openlibrary.org/b/id/8883897-L.jpg"
+  },
+  {
+    "id": "12",
+    "title": "The Origin of Species",
+    "author": "Charles Darwin",
+    "description": "One of the most important books ever written, Darwin's groundbreaking work introduces the scientific theory of evolution by natural selection, explaining how species develop and change over time through adaptation and survival of the fittest.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/id/8739161-L.jpg"
+  }
+]
