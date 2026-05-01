@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
     >
       <body>
         <Navbar/>
-        <Toaster position="top-center" richColors />
+        <Toaster position="top-right" richColors offset={72}/>
         {children}
         <Footer/>
         </body>
