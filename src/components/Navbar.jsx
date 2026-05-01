@@ -43,9 +43,8 @@ const Navbar = () => {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full bg-white dark:bg-[#0a0a0b] transition-shadow duration-200 ${
-        scrolled ? "shadow-sm" : "border-b border-gray-100 dark:border-white/8"
-      }`}
+      className={`sticky top-0 z-50 w-full bg-white dark:bg-[#0a0a0b] transition-shadow duration-200 ${scrolled ? "shadow-sm" : "border-b border-gray-100 dark:border-white/8"
+        }`}
     >
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
 
@@ -70,11 +69,10 @@ const Navbar = () => {
             <li key={href}>
               <Link
                 href={href}
-                className={`rounded-md px-3 py-2 text-sm font-medium transition-colors ${
-                  pathname === href
+                className={`rounded-md px-3 py-2 text-sm font-medium transition-colors ${pathname === href
                     ? "bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-amber-400"
                     : "text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-white/5 hover:text-gray-900 dark:hover:text-white"
-                }`}
+                  }`}
               >
                 {label}
               </Link>
@@ -121,11 +119,10 @@ const Navbar = () => {
             <>
               <Link
                 href="/signin"
-                className={`rounded-md px-4 py-1.5 text-sm font-medium transition-colors ${
-                  pathname === "/signin"
+                className={`rounded-md px-4 py-1.5 text-sm font-medium transition-colors ${pathname === "/signin"
                     ? "bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-amber-400"
                     : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-white/5"
-                }`}
+                  }`}
               >
                 Sign in
               </Link>
@@ -192,11 +189,10 @@ const Navbar = () => {
                 <Link
                   href={href}
                   onClick={() => setMenuOpen(false)}
-                  className={`block rounded-md px-3 py-2 text-sm font-medium transition-colors ${
-                    pathname === href
+                  className={`block rounded-md px-3 py-2 text-sm font-medium transition-colors ${pathname === href
                       ? "bg-amber-100 dark:bg-amber-500/20 text-amber-700 dark:text-amber-400"
-                      : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-white/5"
-                  }`}
+                      : "text-gray-500 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-white/5"
+                    }`}
                 >
                   {label}
                 </Link>
@@ -217,7 +213,7 @@ const Navbar = () => {
                 <Link
                   href="/signin"
                   onClick={() => setMenuOpen(false)}
-                  className="block rounded-md border border-gray-200 dark:border-white/10 py-2 text-center text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-white/5 transition"
+                  className="block rounded-md border border-gray-200 dark:border-white/10 py-2 text-center text-sm font-medium text-gray-400 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-white/5 transition"
                 >
                   Sign in
                 </Link>
