@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📚 Book Borrow — Online Book Borrowing Platform
 
-## Getting Started
+> A seamless and modern web application designed to digitize the traditional library experience.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live URL
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[https://assignment-8-batch-13.vercel.app/](https://assignment-8-batch-13.vercel.app/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Purpose
 
-## Learn More
+Book Borrow allows users to explore a vast digital collection of books, filter by categories, and borrow titles online. The platform aims to replace the traditional library card experience with a fast, secure, and user-friendly digital alternative — accessible from any device.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Key Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔐 **Secure Authentication** — Email/password login and Google OAuth via BetterAuth
+- 📖 **Book Browsing** — Explore all books with search and category filtering
+- 🗂️ **Category Sidebar** — Filter books by Story, Tech, or Science categories
+- 📋 **Book Details** — View in-depth info including availability and borrow option
+- 👤 **My Profile** — View and update personal information (name & photo)
+- 🔒 **Private Routes** — Book details and profile are protected for logged-in users only
+- 📱 **Fully Responsive** — Works beautifully on mobile, tablet, and desktop
+- 🎞️ **Marquee Banner** — Scrolling new arrivals and promotional text on the home page
+- 🌟 **Featured Books Section** — Top 4 books highlighted on the home page
+- 🔔 **Toast Notifications** — Real-time feedback for login, registration, and borrowing actions
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Technology     | Purpose                              |
+|----------------|--------------------------------------|
+| **Next.js**    | React framework with App Router      |
+| **Tailwind CSS** | Utility-first styling              |
+| **DaisyUI**    | Pre-built UI component library       |
+| **BetterAuth** | Authentication (Email + Google OAuth)|
+| **MongoDB**    | Database for storing books and users |
+
+---
+
+## 📦 NPM Packages Used
+
+| Package            | Purpose                                      |
+|--------------------|----------------------------------------------|
+| `better-auth`      | Authentication and session management        |
+| `mongoose`         | MongoDB object modeling                      |
+| `react-hot-toast`  | Toast notification messages                  |
+| `swiper`           | Touch-enabled book carousel / slider         |
+| `next`             | Full-stack React framework                   |
+| `tailwindcss`      | Utility-first CSS framework                  |
+
+---
+
+## 🔐 Authentication Flow
+
+- **Registration**: Name, Email, Photo URL, Password → redirects to Login
+- **Login**: Email + Password or Google → redirects to Home
+- **Session**: Managed securely by BetterAuth
+- **Protected Routes**: Unauthenticated users are redirected to `/login`
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+This project is for educational purposes as part of a web development assignment.
+
+---
+
+> Made with ❤️ using Next.js, BetterAuth, and MongoDB
