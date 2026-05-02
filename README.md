@@ -64,12 +64,6 @@ Book Borrow allows users to explore a vast digital collection of books, filter b
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
 ## 📄 License
 
 This project is for educational purposes as part of a web development assignment.
